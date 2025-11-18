@@ -19,7 +19,7 @@ using System.Threading.Tasks;
     //Output: 0
 namespace EjemplosVarios.Ejemplos_Varios
 {
-    public class MinimumSizeSubarraySum
+    public class d4_MinimumSizeSubarraySum
     {
         public int MinSubArrayLen(int target, int[] nums)
         {

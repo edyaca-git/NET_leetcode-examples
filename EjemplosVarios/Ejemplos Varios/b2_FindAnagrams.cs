@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// 438. Find All Anagrams in a String
+// 438. Find All Anagrams in a String https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
 // Given two strings s and p, return an array of all the start indices of p's anagrams in s.
 // You may return the answer in any order.
 //Example 1:
@@ -27,7 +27,7 @@ using System.Threading.Tasks;
 //Anagrama: misma frecuencia de letras, sin importar orden.
 namespace EjemplosVarios.Ejemplos_Varios
 {
-    public class FindAnagrams
+    public class b2_FindAnagrams
     {
         public IList<int> findAnagrams(string s, string p)
         {

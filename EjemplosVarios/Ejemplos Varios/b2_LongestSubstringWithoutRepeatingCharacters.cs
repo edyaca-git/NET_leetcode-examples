@@ -23,7 +23,7 @@ using System.Threading.Tasks;
     //Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
     //namespace EjemplosVarios.Ejemplos_Varios
 
-    public class LongestSubstringWithoutRepeatingCharacters
+    public class b2_LongestSubstringWithoutRepeatingCharacters
     {
         public int LengthOfLongestSubstring(string s)
         {

@@ -31,7 +31,7 @@ using System.Threading.Tasks;
     //Output: [1]
 namespace EjemplosVarios.Ejemplos_Varios
 {
-    public class SlidingWindowMaximum
+    public class d4_SlidingWindowMaximum
     {
         public int[] MaxSlidingWindow(int[] nums, int k)
         {
