@@ -3,7 +3,9 @@
 
 
 using EjemplosVarios.Ejemplos_Varios;
+using EjemplosVarios.Estudiantes;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 using static EjemplosVarios.Ejemplos_Varios.c3_CloneGraph;
@@ -148,11 +150,11 @@ using static System.Net.Mime.MediaTypeNames;
 
 
 // 438. b2_ Find All Anagrams in a String
-b2_FindAnagrams sol = new b2_FindAnagrams();
-Console.WriteLine("cbaebabacd, abc"); // [0,6]
-Console.WriteLine("[" + string.Join(",", sol.findAnagrams("cbaebabacd", "abc")) + "]"); // [0,6]
-Console.WriteLine("abab, ab");         // [0,1,2]
-Console.WriteLine("[" + string.Join(",", sol.findAnagrams("abab", "ab")) + "]");         // [0,1,2]
+//b2_FindAnagrams sol = new b2_FindAnagrams();
+//Console.WriteLine("cbaebabacd, abc"); // [0,6]
+//Console.WriteLine("[" + string.Join(",", sol.findAnagrams("cbaebabacd", "abc")) + "]"); // [0,6]
+//Console.WriteLine("abab, ab");         // [0,1,2]
+//Console.WriteLine("[" + string.Join(",", sol.findAnagrams("abab", "ab")) + "]");         // [0,1,2]
 
 // 209. d4_ Minimum Size Subarray Sum
 //d4_MinimumSizeSubarraySum sol = new d4_MinimumSizeSubarraySum();
@@ -440,3 +442,13 @@ Console.WriteLine("[" + string.Join(",", sol.findAnagrams("abab", "ab")) + "]");
 //    Console.WriteLine("]");
 //}
 
+
+/// Ejecución del módulo de Estudiantes
+MainStudents mainStudents = new MainStudents();
+mainStudents.EjecutarEstudiantes();
+
+//Determines if two words are anagrams
+//IsAnagram TwoWordsAreAnagrams = new IsAnagram();
+//bool res = TwoWordsAreAnagrams.WordsAnagram("Lissten", "ssilent");
+
+//Console.WriteLine($"El resultado es {res} ");
